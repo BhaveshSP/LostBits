@@ -497,6 +497,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3191,7 +3203,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2314a87bea6935b459a4cf2ce06be8b6
     internalID: 0
     vertices: []
     indices: 
@@ -3232,8 +3244,8 @@ TextureImporter:
       tileset-sliced_90: 21300180
       tileset-sliced_45: 21300090
       tileset-sliced_94: 21300188
-      tileset-sliced_91: 21300182
       tileset-sliced_28: 21300056
+      tileset-sliced_91: 21300182
       tileset-sliced_83: 21300166
       tileset-sliced_20: 21300040
       tileset-sliced_16: 21300032
