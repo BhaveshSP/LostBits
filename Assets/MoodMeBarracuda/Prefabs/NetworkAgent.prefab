@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3394330362466640329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3394330362466640330}
+  - component: {fileID: 3394330362466640331}
+  - component: {fileID: 3394330362466640328}
+  m_Layer: 0
+  m_Name: NetworkAgent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3394330362466640330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3394330362466640329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1835.8951, y: 322.9951, z: -918.75275}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3394330362466640331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3394330362466640329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1397902b7d1968a42b6305991a180930, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Network: {fileID: 5022602860645237092, guid: d5240bf52406f9645837589c0d7c7785, type: 3}
+  ImageInputWidth: 640
+  ImageInputHeight: 480
+  ImageNetworkWidth: 320
+  ImageNetworkHeight: 240
+  ChannelCount: 3
+  DetectionThreshold: 0.7
+  Device: 32768
+  Process: 1
+  GUIPreview: 1
+  PreviewTrackerPlane: {fileID: 0}
+  PreviewCropPlane: {fileID: 0}
+  ExportCrop: 1
+  ExportCropWidth: 48
+  ExportCropHeight: 48
+  CropFormat: 0
+--- !u!114 &3394330362466640328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3394330362466640329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 842ad61a5d921ae4aacb65de08c6ed7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EmotionsNNetwork: {fileID: 5022602860645237092, guid: 336b238100d1d7241a721b5fbba14bac, type: 3}
+  ImageNetworkWidth: 48
+  ImageNetworkHeight: 48
+  ChannelCount: 1
+  Device: 32768
+  Process: 1
+  PreviewEmotionsPlane: {fileID: 0}
