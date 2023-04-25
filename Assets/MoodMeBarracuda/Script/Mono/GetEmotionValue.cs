@@ -10,7 +10,7 @@ namespace MoodMe
     {
         public enum EmotionEnum
         {
-            Angry, Disgust, Happy, Neutral, Sad, Scared, Surprised, EmotionIndex
+            Angry, Disgust, Happy, Neutral, Sad, Scared, Surprised, EmotionIndex, Difficulty
         }
 
         public EmotionEnum Emotion;
@@ -48,11 +48,11 @@ namespace MoodMe
                 case EmotionEnum.Surprised:
                     thisSlider.value = EmotionsManager.Emotions.surprised;
                     break;
+                    
                 case EmotionEnum.EmotionIndex:
                     thisSlider.value = EmotionsManager.EmotionIndex;
                     break;
             }
-
 
         }
     }
